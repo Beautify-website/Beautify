@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="amazon2.css">
+    <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+    <div class="loader">
+        <h1>BEAUTIFY</h1>
+        <section id="cube">
+            <div class="face front"> </div>
+            <div class="face back"> </div>
+            <div class="face right"> </div>
+            <div class="face left"> </div>
+            <div class="face top"> </div>
+            <div class="face bottom"> </div>
+            <div class="face bottom2"></div>
+          </section>
+    </div>
+
+    <div id="main">
+    <div class="navbar" id="navbar">
+        <div class="nav" id="logo">
+            <img src="./images/beautify_logo.png">
+        </div>
+        <div class="nav" id="adress">
+            <span><i class="fa-solid fa-location-dot"></i></span> 
+            <div id="hello">hello</div>
+            <a href="#">Select your adress</a>
+        </div>
+        <div class="nav" id="search">
+            <select id="dropdownmenu" name="dropdown">
+                <option value="all">All</option>
+                <option value="lip">lipstick</option>
+                <option value="ll">Liquid Lipstick</option>
+                <option value="nic">Night Cream</option>
+                <option value="sae">Serums & Essence</option>
+                <option value="fw">Face Wash</option>
+                <option value="fwi">Face Wipes</option>
+                <option value="sal">Scrubs & Loofahs</option>
+                <option value="lb">Lip Balm</option>
+                <option value="lm">Lip Masks</option>
+                <option value="ss">Skin Supplements</option>
+                <option value="vam">Vitamins & Minerals</option>
+                <option value="fs">Face Sunscreen</option>
+                <option value="ns">Nose Strips</option>
+                <option value="s">Soaps</option>
+                
+                <option value="ds">Dry Shampoo</option>
+                <option value="fu0">Foundation</option>
+                <option value="br">Bronzer</option>
+                <option value="hc">Hair Serum</option>
+                <option value="h&p">Health & Personal care</option>
+                <option value="tam">Toners & Mists</option>
+                <option value="lb">luxury beauty</option>
+                <option value="ll">Lip Liner</option>
+               
+               </select>
+               
+           <div id="searchbox" class="search">
+                <input type="text" id="isearch" name="q" placeholder="Search body beauty products">
+            </div>
+            <div class="search" id="submit">
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </div>
+        <div class="nav" id="language">
+            <div class="lang" id="flag">
+                <label for="langselect"><img src="./images/flag.png"></label></div>
+            <div class="lang" id="en"><label for="langselect"> EN </label></div>
+            <div class="lang" id="drop">
+                <select name="lang" id="langselect">
+                
+                <option value="eng" class="lang">ENGLISH</option>
+                <option value="" class="lang">Hindi</option>
+                <option value="" class="lang">Tamil</option>
+                <option value="" class="lang">Telugu</option>
+                <option value="" class="lang">Kannad</option>
+                <option value="" class="lang">Bangla</option>
+                <option value="" class="lang">Urdu</option>
+                <option value="" class="lang">Marathi</option>
+                <option value="" class="lang">More</option>
+               
+            </select></div>
+        </div>
+        <div class="nav" id="hello2">
+            <div class="hello" id="sign">hello,sign in</div>
+            <div class="hello" id="account">Accounts &AMP; Lists</div>
+        </div>
+        <div class="nav"  id="orders">
+            <div class="order" id="return">Return</div>
+            <div class="order" id="order"> &AMP; Orders</div>
+        </div>
+        <div class="nav" id="cart">
+            <span id="cart_logo"><i class="fa-solid fa-cart-shopping"></i></span>
+           <span id="cart_text">Cart</span>
+        </div>
+        </div>
+
+         <!-- nav bar code  over here -->
+    <!-- nav bar code  over here -->
+    <!-- nav bar code  over here -->
+
+    <div class="navbar2" id="navbar2">
+        <div class="nav2" id="all">
+            <span id="nav2_icon"><i class="fa-solid fa-bars"></i></span>
+            <span id="nav2_all"> All</span></div>
+       
+        <div class="nav2" id="sell">Sell</div>
+        <div class="nav2" id="bsell">Best Sellers</div>
+        <div class="nav2" id="to+deal">Today's Deals</div>
+    
+        <div class="nav2" id="new_rel">New Releases</div>
+        <div class="nav2" id="custmer">Customer Services</div>
+  
+      
+
+
+    </div>
+ <!-- navbar 2 completed -->
+     <!-- navbar 2 completed -->
+      <!-- navbar 2 completed -->
+      <div id="amazon_top_image" ><img src="./images/main_img.jpeg"></div>
+      <div id="bgcolor_page"></div>
+      <div id="items" class="boxes">
+        <div class="box" id="multiple1">
+            <div class="m_text" id="m1text">Top company products</div>
+            <div class="m_mainbox" id="m1mainbox">
+                <div class="a1" ><img class="a" src="./images/bb__m1img1.jpeg">
+                    <div class="in" >L'Oréal</div>
+                </div>
+                <div class="a1" ><img class="a" src="./images/bb__m1img2.jpeg">
+                    <div class="in" >Dior</div></div>
+                <div class="a1" ><img class="a" src="./images/bb__m1img3.jpeg">
+                    <div class="in" >Johnson & Johnson</div></div>
+                <div class="a1" ><img class="a" src="./images/bb__m1img4.jpeg">
+                    <div class="in" >Procter & Gamble</div></div>
+            </div>
+            <div class="see_more" id="m1c_more"><a href="#">see all offers</a></div>
+        </div>
+
+        <div class="box" id="multiple2"> 
+            <div class="m_text" id="m2text">Starting ₹99 | Skin Cares</div>
+            <div class="m_mainbox" id="m2mainbox">
+                <div class="a1" ><img class="a" src="./images/bb_m2img1.jpeg">
+                    <div class="in" >Moisturizers</div>
+                </div>
+                <div class="a1" ><img class="a" src="./images/bb_m2img2.jpeg">
+                    <div class="in" >Serum & Essence</div></div>
+                <div class="a1" ><img class="a" src="./images/bb_m2img3.jpeg">
+                    <div class="in" >Night Cream</div></div>
+                <div class="a1" ><img class="a" src="./images/bb_m2img4.jpeg">
+                    <div class="in" >Face Oils</div></div>
+            </div>
+            <div class="see_more" id="m1c_more"><a href="#">Explore all</a></div>
+        </div>
+
+        <div class="box" id="multiple3">
+            <div class="m_text" id="m3text">Revamp your hair in style</div>
+            <div class="m_mainbox" id="m3mainbox">
+                <div class="a1" ><img class="a" src="./images/bb_m3img1.jpeg">
+                    <div class="in">Hair Combs</div>
+                </div>
+                <div class="a1" ><img class="a" src="./images/bb_m3img2.jpeg">
+                    <div class="in" >Hair oil</div></div>
+                <div class="a1" ><img class="a" src="./images/bb_m3img3.jpeg">
+                    <div class="in" >Hair extension</div></div>
+                <div class="a1" ><img class="a" src="./images/bb_m3img4.jpeg">
+                    <div class="in" >Hair supplements</div></div>
+            </div>
+            <div class="see_more" id="m1c_more"><a href="#">Explore all</a></div>
+        </div>
+
+        <div class="box" id="single1">
+            <div class="single1" id="text1"> Up to 70% off | Lipstics</div>
+            <div class="single1" id="single1_img"><img class="single" src="images/bb_single1.jpeg" ></div>
+            <div class="single1" id="single1_cmore"><a href="#">see more</a></div>
+        </div>
+
+        <div class="box" id="multiple4">
+            <div class="m_text" id="m4text">Beauty products for your beautiful body</div>
+            <div class="m_mainbox" id="m4mainbox">
+                <div class="a1" ><img class="a" src="./images/bb_m4img1.jpeg">
+                    <div class="in" >Lipstics</div>
+                </div>
+                <div class="a1" ><img class="a" src="./images/bb_m4img2.jpeg">
+                    <div class="in" >Nail polish</div></div>
+                <div class="a1" ><img class="a" src="./images/bb_m4img3.jpeg">
+                    <div class="in" >Foundation brush</div></div>
+                <div class="a1" ><img class="a" src="./images/bb_m4img4.png">
+                    <div class="in" >Eye liner</div></div>
+            </div>
+            <div class="see_more" id="m1c_more"><a href="#">see more</a></div>
+        </div>
+        <div class="box" id="multiple5">
+            <div class="m_text" id="m5text">Make up Kits</div>
+            <div class="m_mainbox" id="m5mainbox">
+                <div class="a1" ><img class="a" src="./images/bb_m5img1.avif">
+                    <div class="in" ></div>
+                </div>
+                <div class="a1" ><img class="a" src="./images/bb_m5img2.avif">
+                    <div class="in" ></div></div>
+                <div class="a1" ><img class="a" src="./images/bb_m5img3.avif">
+                    <div class="in" ></div></div>
+                <div class="a1" ><img class="a" src="./images/bb_m5img4.avif">
+                    <div class="in" ></div></div>
+            </div>
+            <div class="see_more" id="m1c_more"><a href="#">Visit the store</a></div>
+        </div>
+        <div class="box" id="multiple6">
+            <div class="m_text" id="m6text">Up to 60% off | Speacial offer</div>
+            <div class="m_mainbox" id="m6mainbox">
+                <div class="a1"><img class="a" src="./images/bb_m6img1.jpg">
+                    <div class="in" >Lip balm</div>
+                </div>
+                <div class="a1" ><img class="a" src="./images/bb_m6img2.jpg">
+                    <div class="in" >Cheek tint</div></div>
+                <div class="a1" ><img class="a" src="./images/bb_m6img3.jpg">
+                    <div class="in" >Sheet Mask</div></div>
+                <div class="a1" ><img class="a" src="./images/bb_m6img4.jpg">
+                    <div class="in" >Concealer</div></div>
+            </div>
+            <div class="see_more" id="m1c_more"><a href="#">see more</a></div>
+        </div>
+
+        <div class="box" id="single2">
+            <div class="single2" id="text2"> Olapex combos on 15% off</div>
+            <div class="single2" id="single2_img"><img class="single"src="images/bb_single2.avif" ></div>
+            <div class="single2" id="single2_cmore"><a href="#">see more</a></div>
+        </div>
+
+ <div class="box" id="longbox1">
+    <div  class="lbtext" id="lb1text">Essential products for you</div>
+            <span class="lb_c_more"><a href="#">See all offers</a></span>
+            <div class="lb" id="lb1">
+            <div class="lbdiv"><img src="./images/bb_lb1img1.jpg" alt=""></div>
+            <div class="lbdiv"><img src="./images/bb_lb1img2.jpg" alt=""></div>
+            <div class="lbdiv"><img src="./images/bb_lb1img3.jpg" alt=""></div>
+            <div class="lbdiv remove"><img src="./images/bb_lb1img4.jpg" alt=""></div>
+            
+           
+        </div>
+ </div>
+
+
+ <div class="box" id="multiple7" ><div class="m_text" id="m7text"> Up to 60% off | beauty pro. for women</div>
+            <div class="m_mainbox" id="m7mainbox">
+                <div class="a1" ><img class="a" src="./images/bb_m7img1.jpeg">
+                    <div class="in" ></div>
+                </div>
+                <div class="a1" ><img class="a" src="./images/bb_m7img2.jpeg">
+                    <div class="in" ></div></div>
+                <div class="a1" ><img class="a" src="./images/bb_m7img3.jpeg">
+                    <div class="in" ></div></div>
+                <div class="a1" ><img class="a" src="./images/bb_m7img4.jpeg">
+                    <div class="in" ></div></div>
+            </div>
+            <div class="see_more" id="m1c_more"><a href="#">see all offers</a></div>
+        </div>
+
+        <div class="box" id="multiple8">
+            <div class="m_text" id="m8text">Look like a Bride</div>
+            <div class="m_mainbox" id="m8mainbox">
+                <div class="a1" ><img class="a" src="./images/bb_m8img1.jpg">
+                    <div class="in" >Brushes</div>
+                </div>
+                <div class="a1" ><img class="a" src="./images/bb_m8img2.jpg">
+                    <div class="in" >lips beauty</div></div>
+                <div class="a1" ><img class="a" src="./images/bb_m8img3.jpg">
+                    <div class="in" >face beauty</div></div>
+                <div class="a1" ><img class="a" src="./images/bb_m8img4.jpg">
+                    <div class="in" >serum</div></div>
+            </div>
+            <div class="see_more" id="m1c_more"><a href="#">see more</a></div>
+        </div>
+        <div class="box" id="multiple3">
+            <div class="m_text" id="m3text">Revamp your face in style</div>
+            <div class="m_mainbox" id="m3mainbox">
+                <div class="a1" ><img class="a" src="./images/bb_m9img1.jpg">
+                    <div class="in">foundation</div>
+                </div>
+                <div class="a1" ><img class="a" src="./images/bb_m9img2.jpg">
+                    <div class="in" >nail decoration</div></div>
+                <div class="a1" ><img class="a" src="./images/bb_m9img3.jpg">
+                    <div class="in" >highlighter</div></div>
+                <div class="a1" ><img class="a" src="./images/bb_m9img4.jpg">
+                    <div class="in" >combo</div></div>
+            </div>
+            <div class="see_more" id="m1c_more"><a href="#">Explore all</a></div>
+        </div>
+
+        <div class="box" id="single3">
+            <div class="single3" id="text3"> SWiss Beauty Up to 30% off</div>
+            <div class="single3" id="single3_img"><img class="single" src="images/bb_single3.jpg" ></div>
+            <div class="single3" id="single3_cmore"><a href="">Shop now</a></div>
+        </div>
+
+
+
+
+
+        <div class="box" id="longbox2">
+            <div  class="lbtext" id="lb1text">Up to 70% off | Decorate your home as per you now</div>
+            <span class="lb_c_more"><a href="#">See all offers</a></span>
+            <div class="lb" id="lb1">
+            <div class="lbdiv"><img src="./images/amazon_lb2img1.jpg" alt=""></div>
+            <div class="lbdiv"><img src="./images/amazon_lb2img2.jpg" alt=""></div>
+            <div class="lbdiv"><img src="./images/amazon_lb2img3.jpg" alt=""></div>
+            <div class="lbdiv remove"><img src="./images/amazon_lb2img4.jpg" alt=""></div>
+            <div class="lbdiv remove "><img src="./images/amazon_lb2img5.jpg" alt=""></div>
+            <div class="lbdiv remove"><img src="./images/amazon_lb2img6.jpg" alt=""></div>
+        </div>
+
+        </div>
+
+
+
+        <div class="box" id="longbox3">
+            <div  class="lbtext" id="lb1text">Up to 60% off | Get you really needs</div>
+            <span class="lb_c_more"><a href="#">See all offers</a></span>
+            <div class="lb" id="lb1">
+            <div class="lbdiv"><img src="./images/bb_lb3img1.jpg" alt=""></div>
+            <div class="lbdiv"><img src="./images/bb_lb3img2.jpg" alt=""></div>
+            <div class="lbdiv remove"><img src="./images/bb_lb3img3.jpg" alt=""></div>
+            <div class="lbdiv remove"><img src="./images/bb_lb3img4.jpg" alt=""></div>
+         
+            
+        </div>
+        </div>
+
+
+        <div class="box" id="multiple10">
+            <div class="m_text" id="m10text">Birthday store</div>
+            <div class="m_mainbox" id="m10mainbox">
+                <div class="a1" ><img class="a" src="./images/amazon_m10img1.jpg">
+                    <div class="in" >Gift for men</div>
+                </div>
+                <div class="a1" ><img class="a" src="./images/amazon_m10img2.jpg">
+                    <div class="in" >Gift for women</div></div>
+                <div class="a1" ><img class="a" src="./images/amazon_m10img3.jpg">
+                    <div class="in" >Gift for boys</div></div>
+                <div class="a1" ><img class="a" src="./images/amazon_m10img4.jpg">
+                    <div class="in">Gift for girls</div></div>
+            </div>
+            <div class="see_more" id="m1c_more"><a href="#">See more</a></div>
+        </div>
+        <div class="box" id="multiple11">
+            <div class="m_text" id="m11text">One stop shop for all your wedding shopping</div>
+            <div class="m_mainbox" id="m11mainbox">
+                <div class="a1" ><img class="a" src="./images/amazon_m11img1.jpg">
+                    <div class="in" >Shop for her</div>
+                </div>
+                <div class="a1" ><img class="a" src="./images/amazon_m11img2.jpg">
+                    <div class="in" >Shop for him</div></div>
+                <div class="a1" ><img class="a" src="./images/amazon_m11img3.jpg">
+                    <div class="in" >Pooja essentials</div></div>
+                <div class="a1" ><img class="a" src="./images/amazon_m11img4.jpg">
+                    <div class="in" >Explore the store</div></div>
+            </div>
+            <div class="see_more" id="m1c_more"><a href="#">See more</a></div>
+        </div>
+        <div class="box" id="multiple12">
+            <div class="m_text" id="m12text">UP to 40% off | Baby care</div>
+            <div class="m_mainbox" id="m12mainbox">
+                <div class="a1" ><img class="a" src="./images/amazon_m12img1.jpg">
+                    <div class="in" >Diapers & wipes</div>
+                </div>
+                <div class="a1" ><img class="a" src="./images/amazon_m12img2.jpg">
+                    <div class="in" >Bath & skincare</div></div>
+                <div class="a1" ><img class="a" src="./images/amazon_m12img3.jpg">
+                    <div class="in" > Feeding supplies</div></div>
+                <div class="a1" ><img class="a" src="./images/amazon_m12img4.jpg">
+                    <div class="in" >view all baby essentials</div></div>
+            </div>
+            <div class="see_more" id="m1c_more"><a href="#">see all offers</a></div>
+        </div>
+        <div class="box" id="single4">
+            <div class="single4" id="text4"> Upto 30% off on brands you loves</div>
+            <div class="single4" id="single4_img"><img class="single" src="images/bb_single4.jpg" ></div>
+            <div class="single4" id="single4_cmore"><a href="#">watch for free | miniTV</a></div>
+        </div>
+
+        <div class="box" id="downnav2">Back to top</div>
+        <div class="box" id="downnav1">
+            <div id="downnav1in">
+
+            <div class="downnav1box">
+                <ul >
+                    <li class="li1">Get to Know Us</li>
+                    <li class="li">About us</li>
+                    <li class="li">Careers</li>
+                    <li class="li">Press Releases</li>
+                   
+                </ul>
+            </div>
+
+
+            <div class="downnav1box">
+                <ul >
+                    <li class="li1">Connect with us </li>
+                    <li class="li">Facebook</li>
+                    <li class="li">Twitter</li>
+                    <li class="li">Instagram</li>
+                    
+                </ul>
+            </div>
+            <div class="downnav1box">
+                <ul >
+                    <li class="li1">Make Money With US</li>
+                    <li class="li">Sell on beautify</li>
+                    
+                    <li class="li">Protect and Build Your Brand</li>
+                    <li class="li">Beautify Global Setting</li>
+                    <li class="li">Become an Affiliate</li>
+                    <li class="li">FUlfilment by Amazon</li>
+                    <li class="li">Advertise Your Products</li>
+                  
+
+                </ul>
+            </div>
+            <div class="downnav1box">
+                <ul>
+                <li class="li1">Let Us Help You</li>
+                <li class="li">Covid-19 and Amazon</li>
+                <li class="li">Your Account</li>
+                <li class="li">Returns Centre</li>
+                <li class="li">100% Purchase Protection</li>
+                <li class="li">Beautify App DOwnload</li>
+                <li class="li">Help</li>
+            </ul>
+            </div>
+            </div>
+        </div>
+
+</div>
+
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+       
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+       
+       <script src="app.js"></script>
+    </body>
+    </html>
+           
