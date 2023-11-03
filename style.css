@@ -508,7 +508,7 @@ p{
     margin:0px;
     padding:0px;
     background-color: #f75990;
-    color: white;
+    color: black;
     font-weight: 900;
     font-size: 20px;
     line-height: 50px;
@@ -580,13 +580,13 @@ p{
     justify-content: flex-start;
     align-items: flex-start;
     background-color:none;
-    background-color: #3a3765;
+    background-color: #fdb1cc;
 }
 .box  .downnav1box{
     height: 360px;
     width: 205px;
     margin: 15px;
-    background-color: #3a3765;
+    background-color: #fdb1cc;
     
 
 }
@@ -598,14 +598,14 @@ p{
     list-style-type: none;
 }
 .box .downnav1box .li1{
-    color: white;
+    color: black;
     font-size: 17px;
     font-weight: 900;
 }
 
 .box .downnav1box .li{
     
-    color: rgba(255, 255, 255,0.8);
+    color: black;
     text-align: left;
 
 }
