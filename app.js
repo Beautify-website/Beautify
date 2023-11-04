@@ -19,7 +19,7 @@ if (window.innerWidth > 768) {
             scrollTrigger: {
                 trigger: box3,
                 scroller: "body",
-                markers: true, // Add markers for debugging
+               
                 scrub: 2,
             }
         });
