@@ -19,11 +19,18 @@
     transform: rotateY(30deg);
    animation:animate 3s linear infinite;
 }
-.loader h1{
+.loader h3{
     color: #f75990;
    position: absolute;
    top:0px;
-    font-size: 10vw;
+    font-size: 8vw;
+   z-index: 5;
+}
+.loader h6{
+    color: #59dff7;
+   position: absolute;
+   top:125px;
+    font-size: 3vw;
    z-index: 5;
 }
 @keyframes animate {
