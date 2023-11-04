@@ -2,7 +2,7 @@ var tl = gsap.timeline();
 
 tl.to(".loader", {
     delay: 2,
-    top: "-120vh",
+    top: "-125vh",
     duration: 1,
 });
 
